@@ -1,8 +1,10 @@
 #Brian Pomerantz
+#reads element at position n of ASCII file
 function reader2bf(file::String, n::Int)
-	@assert stat(file).isfile;
+	@assert isfile(file); #file exists
 	io = open(file, "r");
 	
+	#file non-empty and at beginning
 	@assert stat(file) != 0;
 	@assert position(io) == 0;
 
