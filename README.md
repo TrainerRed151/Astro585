@@ -1,3 +1,3 @@
-Pokemon
+Astro 585 - High-Performance Scientific Computing for Astrophysics
 =======
-Gotta Catch 'Em All!
+Code from class assignments
